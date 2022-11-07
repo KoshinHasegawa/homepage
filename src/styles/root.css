@@ -1,0 +1,13 @@
+:root {
+  --base: #333;
+  --base_light: #3f3f3f;
+  --main: #dada1f;
+  --main_light: #fafa8f;
+  --main_dark: #9a9a1f;
+  --acc: #8f8ffa;
+  --text: #ddd;
+}
+body {
+  font-family: "Roboto", "M PLUS 1p", sans-serif;
+  background-color: var(--base);
+}

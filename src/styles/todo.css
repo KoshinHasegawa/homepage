@@ -1,0 +1,26 @@
+main {
+  min-height: calc(100vh - 160px);
+  min-height: calc(100svh - 160px);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+}
+.title {
+  font-size: 32px;
+  font-weight: 600;
+}
+label {
+  margin-right: 5px;
+}
+button {
+  width: auto;
+  border-color: #9a9a1f;
+  margin-left: 10px;
+}
+.form {
+  flex-direction: row;
+}
